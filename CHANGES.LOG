@@ -1,0 +1,16 @@
+---------------------------------------------------------------------------------------
+Changes Made by - Khozema Nullwala on 14th August 2018
+---------------------------------------------------------------------------------------
+1. Added the CHANGES.LOG file to describe the changes.
+2. Converted the project into a git repository and added .gitignore file.
+3. Modified pom.xml file to package the application into a war.
+4. Modified VendorServiceApplication for deploying the application on any web container
+5. Added the data.sql file inside the resources folder.
+6. Modified the application.properties file for database, hibernate and added a context path. 
+7. Added sonar-project.properties file for static code analysis
+---------------------------------------------------------------------------------------
+Changes Made by - Khozema Nullwala on 12th September 2018
+---------------------------------------------------------------------------------------
+1. Removed the data.sql file from resources folder which contained the sql script.
+2. Added an handler method to serve the default URL
+3. Modified the project to use as Spring Boot Starter Template for Vendor Service.

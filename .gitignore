@@ -2,6 +2,7 @@
 *.war
 *.jar
 
+bin
 .classpath
 .settings
 target
